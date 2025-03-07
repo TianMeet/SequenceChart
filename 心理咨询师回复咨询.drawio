@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram name="第 1 页" id="addX5nu3QkDmizG0w3Ti">
+    <mxGraphModel dx="954" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="YCFRyztoRyy0r6gUGVuy-1">
+          <mxGeometry x="5" y="60" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-2" value="心理咨询师界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="YCFRyztoRyy0r6gUGVuy-2">
+          <mxGeometry x="45" y="60" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-5" value="1.心理咨询师进入界面" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="YCFRyztoRyy0r6gUGVuy-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="220" as="sourcePoint" />
+            <mxPoint x="250" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-6" value="controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="YCFRyztoRyy0r6gUGVuy-6">
+          <mxGeometry x="45" y="70" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-7" value="2.获取咨询相关信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="YCFRyztoRyy0r6gUGVuy-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="230" as="sourcePoint" />
+            <mxPoint x="380" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-9" value="3.返回咨询相关信息列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="YCFRyztoRyy0r6gUGVuy-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="250" as="sourcePoint" />
+            <mxPoint x="370" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-10" value="4.添加回复信息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="YCFRyztoRyy0r6gUGVuy-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="280" as="sourcePoint" />
+            <mxPoint x="380" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-11" value="service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="YCFRyztoRyy0r6gUGVuy-11">
+          <mxGeometry x="45" y="80" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-13" value="5.处理回复数据" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="YCFRyztoRyy0r6gUGVuy-11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="450" y="250" as="sourcePoint" />
+            <mxPoint x="530" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-14" value="数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="710" y="120" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="YCFRyztoRyy0r6gUGVuy-14">
+          <mxGeometry x="45" y="80" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-16" value="6.将回复数据更新到咨询记录中" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="YCFRyztoRyy0r6gUGVuy-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="580" y="260" as="sourcePoint" />
+            <mxPoint x="660" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCFRyztoRyy0r6gUGVuy-17" value="7.回复成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="YCFRyztoRyy0r6gUGVuy-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="290" as="sourcePoint" />
+            <mxPoint x="680" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
